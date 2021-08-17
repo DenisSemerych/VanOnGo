@@ -3,27 +3,56 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		2377381C26BECAEC0062C75E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2377381B26BECAEC0062C75E /* AppDelegate.swift */; };
 		2377381E26BECAEC0062C75E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2377381D26BECAEC0062C75E /* SceneDelegate.swift */; };
-		2377382026BECAEC0062C75E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2377381F26BECAEC0062C75E /* ViewController.swift */; };
-		2377382326BECAEC0062C75E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2377382126BECAEC0062C75E /* Main.storyboard */; };
+		2377382026BECAEC0062C75E /* OrderListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2377381F26BECAEC0062C75E /* OrderListViewController.swift */; };
 		2377382526BECAEE0062C75E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2377382426BECAEE0062C75E /* Assets.xcassets */; };
 		2377382826BECAEE0062C75E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2377382626BECAEE0062C75E /* LaunchScreen.storyboard */; };
+		2377383526BECC300062C75E /* OrderListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2377383426BECC300062C75E /* OrderListViewModel.swift */; };
+		2377383B26BED1530062C75E /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2377383A26BED1530062C75E /* Order.swift */; };
+		2377383F26BED5000062C75E /* OrderListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2377383E26BED5000062C75E /* OrderListView.swift */; };
+		2377384726BFBEEF0062C75E /* OrderDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2377384626BFBEEF0062C75E /* OrderDetailsViewController.swift */; };
+		2377384A26BFBF880062C75E /* OrderDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2377384926BFBF880062C75E /* OrderDetailsViewModel.swift */; };
+		2377384D26BFCC1A0062C75E /* ImageCarousel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2377384C26BFCC1A0062C75E /* ImageCarousel.swift */; };
+		2377385126BFE2E50062C75E /* CarouselImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2377385026BFE2E50062C75E /* CarouselImageView.swift */; };
+		2377386026C0495F0062C75E /* LocalStorageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2377385F26C0495F0062C75E /* LocalStorageService.swift */; };
+		2377386326C056810062C75E /* OrderDetailsCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2377386226C056810062C75E /* OrderDetailsCoordinator.swift */; };
+		2377386626C056A90062C75E /* Coordinator+Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2377386526C056A90062C75E /* Coordinator+Protocols.swift */; };
+		2377386B26C05A060062C75E /* OrderListCoordinatro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2377386A26C05A060062C75E /* OrderListCoordinatro.swift */; };
+		E85C9BC826CC514C00B04DB8 /* ImagePickingCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E85C9BC726CC514C00B04DB8 /* ImagePickingCoordinator.swift */; };
+		E85C9BCA26CC51B700B04DB8 /* ImagePickingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E85C9BC926CC51B700B04DB8 /* ImagePickingViewModel.swift */; };
+		E85C9BCD26CC59BD00B04DB8 /* TLPhotoPicker in Frameworks */ = {isa = PBXBuildFile; productRef = E85C9BCC26CC59BD00B04DB8 /* TLPhotoPicker */; };
+		E85C9BCF26CC66B100B04DB8 /* ImageContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E85C9BCE26CC66B100B04DB8 /* ImageContainer.swift */; };
+		E85C9BD126CC691100B04DB8 /* UIImage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E85C9BD026CC691100B04DB8 /* UIImage+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2377381826BECAEC0062C75E /* TestTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2377381B26BECAEC0062C75E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2377381D26BECAEC0062C75E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		2377381F26BECAEC0062C75E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		2377382226BECAEC0062C75E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2377381F26BECAEC0062C75E /* OrderListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderListViewController.swift; sourceTree = "<group>"; };
 		2377382426BECAEE0062C75E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2377382726BECAEE0062C75E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2377382926BECAEE0062C75E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2377383426BECC300062C75E /* OrderListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderListViewModel.swift; sourceTree = "<group>"; };
+		2377383A26BED1530062C75E /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
+		2377383E26BED5000062C75E /* OrderListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderListView.swift; sourceTree = "<group>"; };
+		2377384626BFBEEF0062C75E /* OrderDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderDetailsViewController.swift; sourceTree = "<group>"; };
+		2377384926BFBF880062C75E /* OrderDetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderDetailsViewModel.swift; sourceTree = "<group>"; };
+		2377384C26BFCC1A0062C75E /* ImageCarousel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCarousel.swift; sourceTree = "<group>"; };
+		2377385026BFE2E50062C75E /* CarouselImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselImageView.swift; sourceTree = "<group>"; };
+		2377385F26C0495F0062C75E /* LocalStorageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalStorageService.swift; sourceTree = "<group>"; };
+		2377386226C056810062C75E /* OrderDetailsCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderDetailsCoordinator.swift; sourceTree = "<group>"; };
+		2377386526C056A90062C75E /* Coordinator+Protocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Coordinator+Protocols.swift"; sourceTree = "<group>"; };
+		2377386A26C05A060062C75E /* OrderListCoordinatro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderListCoordinatro.swift; sourceTree = "<group>"; };
+		E85C9BC726CC514C00B04DB8 /* ImagePickingCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePickingCoordinator.swift; sourceTree = "<group>"; };
+		E85C9BC926CC51B700B04DB8 /* ImagePickingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePickingViewModel.swift; sourceTree = "<group>"; };
+		E85C9BCE26CC66B100B04DB8 /* ImageContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageContainer.swift; sourceTree = "<group>"; };
+		E85C9BD026CC691100B04DB8 /* UIImage+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E85C9BCD26CC59BD00B04DB8 /* TLPhotoPicker in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,15 +86,93 @@
 		2377381A26BECAEC0062C75E /* TestTask */ = {
 			isa = PBXGroup;
 			children = (
-				2377381B26BECAEC0062C75E /* AppDelegate.swift */,
-				2377381D26BECAEC0062C75E /* SceneDelegate.swift */,
-				2377381F26BECAEC0062C75E /* ViewController.swift */,
-				2377382126BECAEC0062C75E /* Main.storyboard */,
+				2377383026BECB1F0062C75E /* Application */,
+				2377386826C056E90062C75E /* Protocols+Extensions */,
+				2377385E26C049520062C75E /* Services */,
+				2377383926BED1050062C75E /* OrderModel */,
+				2377383126BECBFD0062C75E /* OrderList */,
+				2377384526BFBDDE0062C75E /* OrderDetails */,
+				E85C9BC626CC512F00B04DB8 /* ImagePicking */,
 				2377382426BECAEE0062C75E /* Assets.xcassets */,
 				2377382626BECAEE0062C75E /* LaunchScreen.storyboard */,
 				2377382926BECAEE0062C75E /* Info.plist */,
 			);
 			path = TestTask;
+			sourceTree = "<group>";
+		};
+		2377383026BECB1F0062C75E /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				2377381D26BECAEC0062C75E /* SceneDelegate.swift */,
+				2377381B26BECAEC0062C75E /* AppDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		2377383126BECBFD0062C75E /* OrderList */ = {
+			isa = PBXGroup;
+			children = (
+				2377381F26BECAEC0062C75E /* OrderListViewController.swift */,
+				2377386A26C05A060062C75E /* OrderListCoordinatro.swift */,
+				2377383426BECC300062C75E /* OrderListViewModel.swift */,
+				2377383E26BED5000062C75E /* OrderListView.swift */,
+			);
+			path = OrderList;
+			sourceTree = "<group>";
+		};
+		2377383926BED1050062C75E /* OrderModel */ = {
+			isa = PBXGroup;
+			children = (
+				2377383A26BED1530062C75E /* Order.swift */,
+			);
+			path = OrderModel;
+			sourceTree = "<group>";
+		};
+		2377384526BFBDDE0062C75E /* OrderDetails */ = {
+			isa = PBXGroup;
+			children = (
+				2377386226C056810062C75E /* OrderDetailsCoordinator.swift */,
+				2377384626BFBEEF0062C75E /* OrderDetailsViewController.swift */,
+				2377384926BFBF880062C75E /* OrderDetailsViewModel.swift */,
+				2377384F26BFE2CE0062C75E /* Carousel */,
+			);
+			path = OrderDetails;
+			sourceTree = "<group>";
+		};
+		2377384F26BFE2CE0062C75E /* Carousel */ = {
+			isa = PBXGroup;
+			children = (
+				2377384C26BFCC1A0062C75E /* ImageCarousel.swift */,
+				2377385026BFE2E50062C75E /* CarouselImageView.swift */,
+			);
+			path = Carousel;
+			sourceTree = "<group>";
+		};
+		2377385E26C049520062C75E /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				2377385F26C0495F0062C75E /* LocalStorageService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		2377386826C056E90062C75E /* Protocols+Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				2377386526C056A90062C75E /* Coordinator+Protocols.swift */,
+				E85C9BD026CC691100B04DB8 /* UIImage+Extension.swift */,
+			);
+			path = "Protocols+Extensions";
+			sourceTree = "<group>";
+		};
+		E85C9BC626CC512F00B04DB8 /* ImagePicking */ = {
+			isa = PBXGroup;
+			children = (
+				E85C9BC726CC514C00B04DB8 /* ImagePickingCoordinator.swift */,
+				E85C9BC926CC51B700B04DB8 /* ImagePickingViewModel.swift */,
+				E85C9BCE26CC66B100B04DB8 /* ImageContainer.swift */,
+			);
+			path = ImagePicking;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +191,9 @@
 			dependencies = (
 			);
 			name = TestTask;
+			packageProductDependencies = (
+				E85C9BCC26CC59BD00B04DB8 /* TLPhotoPicker */,
+			);
 			productName = TestTask;
 			productReference = 2377381826BECAEC0062C75E /* TestTask.app */;
 			productType = "com.apple.product-type.application";
@@ -110,6 +221,9 @@
 				Base,
 			);
 			mainGroup = 2377380F26BECAEC0062C75E;
+			packageReferences = (
+				E85C9BCB26CC59BD00B04DB8 /* XCRemoteSwiftPackageReference "TLPhotoPicker" */,
+			);
 			productRefGroup = 2377381926BECAEC0062C75E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -126,7 +240,6 @@
 			files = (
 				2377382826BECAEE0062C75E /* LaunchScreen.storyboard in Resources */,
 				2377382526BECAEE0062C75E /* Assets.xcassets in Resources */,
-				2377382326BECAEC0062C75E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,23 +250,30 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2377382026BECAEC0062C75E /* ViewController.swift in Sources */,
+				2377382026BECAEC0062C75E /* OrderListViewController.swift in Sources */,
 				2377381C26BECAEC0062C75E /* AppDelegate.swift in Sources */,
+				2377386626C056A90062C75E /* Coordinator+Protocols.swift in Sources */,
+				E85C9BD126CC691100B04DB8 /* UIImage+Extension.swift in Sources */,
+				2377385126BFE2E50062C75E /* CarouselImageView.swift in Sources */,
+				2377383B26BED1530062C75E /* Order.swift in Sources */,
+				2377384D26BFCC1A0062C75E /* ImageCarousel.swift in Sources */,
 				2377381E26BECAEC0062C75E /* SceneDelegate.swift in Sources */,
+				E85C9BC826CC514C00B04DB8 /* ImagePickingCoordinator.swift in Sources */,
+				2377384A26BFBF880062C75E /* OrderDetailsViewModel.swift in Sources */,
+				2377384726BFBEEF0062C75E /* OrderDetailsViewController.swift in Sources */,
+				E85C9BCA26CC51B700B04DB8 /* ImagePickingViewModel.swift in Sources */,
+				2377386B26C05A060062C75E /* OrderListCoordinatro.swift in Sources */,
+				2377383526BECC300062C75E /* OrderListViewModel.swift in Sources */,
+				2377383F26BED5000062C75E /* OrderListView.swift in Sources */,
+				E85C9BCF26CC66B100B04DB8 /* ImageContainer.swift in Sources */,
+				2377386326C056810062C75E /* OrderDetailsCoordinator.swift in Sources */,
+				2377386026C0495F0062C75E /* LocalStorageService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		2377382126BECAEC0062C75E /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2377382226BECAEC0062C75E /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		2377382626BECAEE0062C75E /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -341,6 +461,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		E85C9BCB26CC59BD00B04DB8 /* XCRemoteSwiftPackageReference "TLPhotoPicker" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/tilltue/TLPhotoPicker.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.1.4;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E85C9BCC26CC59BD00B04DB8 /* TLPhotoPicker */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E85C9BCB26CC59BD00B04DB8 /* XCRemoteSwiftPackageReference "TLPhotoPicker" */;
+			productName = TLPhotoPicker;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 2377381026BECAEC0062C75E /* Project object */;
 }
